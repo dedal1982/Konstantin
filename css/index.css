@@ -381,3 +381,17 @@ button {
   width: 100%;
   height: auto;
 }
+.popup-closed {
+  top: 24px;
+  right: 24px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: #ffffff !important;
+  z-index: 9;
+  font-size: 35px;
+  cursor: pointer;
+}
