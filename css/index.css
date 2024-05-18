@@ -320,6 +320,7 @@ button {
   border-radius: 12px;
   padding: 16px 24px 32px 24px;
   box-sizing: border-box;
+  gap: 12px;
 }
 .item-two-top {
   display: flex;
@@ -341,4 +342,10 @@ button {
   font-weight: 400;
   color: #999999;
   margin-top: 5px;
+}
+.item-two-bottom {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #2a2928ab;
 }
