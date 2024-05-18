@@ -323,9 +323,22 @@ button {
 }
 .item-two-top {
   display: flex;
+  gap: 16px;
 }
 .item-two-img {
   width: 120px;
   height: 120px;
   border-radius: 12px;
+}
+.item-two-top-list {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #2a2928;
+  margin-top: 5px;
+}
+.item-two-data {
+  font-weight: 400;
+  color: #999999;
+  margin-top: 5px;
 }
