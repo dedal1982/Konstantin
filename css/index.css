@@ -134,3 +134,16 @@ button {
     text-decoration: underline;
   }
 }
+/*---selected---*/
+@media (max-width: 767px) {
+  .selected {
+    width: 100%;
+    background: #f5f6f7;
+  }
+  .selected__wrapper {
+    padding-top: 24px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+    display: flex;
+  }
+}
