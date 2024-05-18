@@ -208,4 +208,16 @@ button {
     color: #2a2928;
     margin-top: 16px;
   }
+  .Job-openings__top {
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .Job-openings-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1d7acf;
+  }
 }
