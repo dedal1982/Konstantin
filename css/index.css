@@ -221,3 +221,23 @@ button {
     color: #1d7acf;
   }
 }
+/*---swiperOne---*/
+.swiperOne {
+  width: 100%;
+  height: 220px;
+  margin-top: 24px;
+}
+.slide-item {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, -5px);
+}
