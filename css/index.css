@@ -38,6 +38,9 @@ button {
   -moz-text-size-adjust: 100%;
 }
 @media (max-width: 767px) {
+  br {
+    display: block;
+  }
   .container {
     width: 100%;
     padding-left: 24px;
@@ -156,9 +159,6 @@ button {
     line-height: 28px;
     color: #1d7acf;
   }
-  .selected__title br {
-    display: block;
-  }
   .selected__subtitle {
     font-weight: 400;
     font-size: 18px;
@@ -188,5 +188,24 @@ button {
     align-items: center;
     justify-content: center;
     margin-top: 80px;
+  }
+}
+/*---Job-description---*/
+@media (max-width: 767px) {
+  .Job-description {
+    width: 100%;
+    background: #f5f6f7;
+  }
+  .Job-description__wrapper {
+    padding-top: 26px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+  .Job-description__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #2a2928;
+    margin-top: 16px;
   }
 }
