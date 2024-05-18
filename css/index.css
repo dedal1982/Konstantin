@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.page__content {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Golos Text", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .header {
+    width: 100%;
+    height: 56px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  .logo {
+    width: 168.4px;
+    height: 24px;
+  }
+  .Job-openings {
+    width: 100%;
+    background: #f5f6f7;
+  }
+  .Job-openings__wrapper {
+    padding-top: 24px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2a2928;
+  }
+  .Job-openings__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .Job-openings__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border: 1px solid #1d7acf;
+    border-radius: 12px;
+    padding: 10px 16px 14px 16px;
+    box-sizing: border-box;
+    background: #ffffff;
+  }
+  .item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2a2928;
+  }
+  .item-title-blue {
+    color: #1d7acf;
+  }
+  .footer {
+    width: 100%;
+    background: #ffffff;
+    border-top: 1px solid #c4c4c4;
+  }
+  .footer__wrapper {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14.3px;
+    color: #2a2928;
+  }
+  .footer__copyright {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .text-blue {
+    color: #1d7acf;
+    text-decoration: underline;
+  }
+}
