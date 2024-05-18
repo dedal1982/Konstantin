@@ -224,13 +224,36 @@ button {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 24px;
   }
-  .nner-item {
+  .inner-item {
     background: #ffffff;
     box-shadow: 1px 1px 8px 0px #e8e8e8e5;
     border-radius: 12px;
     padding: 10px 16px 14px 16px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-list {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-left: 27px;
+    gap: 5px;
+  }
+  .inner-list-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #2a2928;
+  }
+  .inner-list-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #2a2928;
   }
 }
 /*---swiperOne---*/
