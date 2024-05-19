@@ -603,4 +603,38 @@ button {
     background: #1d7acf;
     pointer-events: inherit;
   }
+  .input-images-box {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+  }
+  .input-images-box.active {
+    display: flex;
+  }
+  .input-images-wrap {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    overflow: auto;
+  }
+  .input-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    position: relative;
+  }
+  .input-image::before {
+    position: absolute;
+    content: url(../images/input-ex.png);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+  }
+  .doc-img {
+    width: 80px;
+    height: 80px;
+  }
 }

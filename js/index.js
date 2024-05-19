@@ -65,15 +65,11 @@ checkBox.addEventListener("click", () => {
   agreementBtn.classList.toggle("active");
 });
 
-function uploadPhoto() {
-  const input = document.getElementById("photoUpload");
-  const file = input.files[0];
-  if (file) {
-    const reader = new FileReader();
-    reader.onload = function (e) {
-      const img = document.getElementById("preview");
-      img.src = e.target.result;
-    };
-    reader.readAsDataURL(file);
-  }
-}
+//Открытие дива для загружаемых документов
+
+const docButton = document.querySelector(".doc-button");
+const inputImagesBox = document.querySelector(".input-images-box");
+
+docButton.addEventListener("click", () => {
+  inputImagesBox.classList.toggle("active");
+});
