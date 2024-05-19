@@ -445,6 +445,10 @@ button {
     padding-left: 16px;
     padding-right: 16px;
     box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #2a2928;
   }
   .input::placeholder {
     font-weight: 400;

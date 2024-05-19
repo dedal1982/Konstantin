@@ -27,12 +27,17 @@
                 <!--name-->
                 <label class="input-label">
                   <span class="input-title">Имя</span>
-                  <input class="input" type="text" name="name" />
+                  <input class="input" type="text" name="name" required />
                 </label>
                 <!--middle-name-->
                 <label class="input-label">
                   <span class="input-title">Отчество</span>
-                  <input class="input" type="text" name="middle-name" />
+                  <input
+                    class="input"
+                    type="text"
+                    name="middle-name"
+                    required
+                  />
                 </label>
                 <!--birthday-->
                 <label class="input-label">
@@ -44,8 +49,23 @@
                     id="birthday"
                     onKeyUp="formatDate()"
                     placeholder="Число, месяц, год"
+                    required
                   />
                 </label>
+                <!--tel-->
+                <label class="input-label">
+                  <span class="input-title">Номер телефона</span>
+                  <input
+                    class="input"
+                    type="tel"
+                    name="tel"
+                    required
+                    id="phone"
+                    onKeyUp="formatPhoneNumber(this)"
+                    value="+7"
+                  />
+                </label>
+                <!--birthday-->
               </form>
             </div>
           </div>
