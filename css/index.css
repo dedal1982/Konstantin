@@ -457,3 +457,6 @@ button {
     color: #c4c4c4;
   }
 }
+.input-select {
+  display: flex;
+}
