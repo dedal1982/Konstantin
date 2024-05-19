@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
   </head>
@@ -22,7 +18,35 @@
           <div class="container">
             <div class="form-page__wrapper">
               <h2 class="Job-openings-title">Ваши данные</h2>
-              <form class="form-in" action="#"></form>
+              <form class="form-in" action="#">
+                <!--surname-->
+                <label class="input-label">
+                  <span class="input-title">Фамилия</span>
+                  <input class="input" type="text" name="surname" />
+                </label>
+                <!--name-->
+                <label class="input-label">
+                  <span class="input-title">Имя</span>
+                  <input class="input" type="text" name="name" />
+                </label>
+                <!--middle-name-->
+                <label class="input-label">
+                  <span class="input-title">Отчество</span>
+                  <input class="input" type="text" name="middle-name" />
+                </label>
+                <!--birthday-->
+                <label class="input-label">
+                  <span class="input-title">Дата рождения</span>
+                  <input
+                    class="input"
+                    type="text"
+                    name="birthday"
+                    id="birthday"
+                    onKeyUp="formatDate()"
+                    placeholder="Число, месяц, год"
+                  />
+                </label>
+              </form>
             </div>
           </div>
         </section>
@@ -62,8 +86,6 @@
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/swiper.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
