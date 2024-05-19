@@ -58,7 +58,22 @@ selectListItem.forEach((elem) => {
 //Чекбокс
 const checkBox = document.querySelector(".check");
 const checkBoxImg = document.querySelector(".check-image");
+const agreementBtn = document.querySelector(".agreement-btn");
 
 checkBox.addEventListener("click", () => {
   checkBoxImg.classList.toggle("active");
+  agreementBtn.classList.toggle("active");
 });
+
+function uploadPhoto() {
+  const input = document.getElementById("photoUpload");
+  const file = input.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      const img = document.getElementById("preview");
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+}
