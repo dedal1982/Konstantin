@@ -54,3 +54,11 @@ selectListItem.forEach((elem) => {
     selectBtnText.classList.add("active");
   });
 });
+
+//Чекбокс
+const checkBox = document.querySelector(".check");
+const checkBoxImg = document.querySelector(".check-image");
+
+checkBox.addEventListener("click", () => {
+  checkBoxImg.classList.toggle("active");
+});

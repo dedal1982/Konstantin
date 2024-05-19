@@ -547,4 +547,41 @@ button {
     line-height: 15.6px;
     color: #2a2928;
   }
+  .agreement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .agreement-top {
+    display: flex;
+    gap: 16px;
+  }
+  .check {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #2a2928;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .check-image {
+    display: none;
+  }
+  .check-image.active {
+    display: block;
+  }
+  .check-text {
+    width: 216px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.6px;
+    color: #2a2928;
+  }
+  .check-text a {
+    text-decoration: underline;
+    color: #1d7acf;
+  }
 }
