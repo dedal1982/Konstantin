@@ -290,13 +290,18 @@ button {
   margin-top: 24px;
 }
 .slide-item {
-  width: 100%;
+  width: 327px;
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
+  margin: auto;
 }
-
+.slide-item img {
+  width: 100%;
+  border-radius: inherit;
+}
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
@@ -394,4 +399,24 @@ button {
   z-index: 9;
   font-size: 35px;
   cursor: pointer;
+}
+/*---form-page--*/
+@media (max-width: 767px) {
+  .form-page {
+    width: 100%;
+    background: #f5f6f7;
+  }
+  .form-page__wrapper {
+    padding-top: 24px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-in {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
 }
