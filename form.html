@@ -22,7 +22,7 @@
                 <!--surname-->
                 <label class="input-label">
                   <span class="input-title">Фамилия</span>
-                  <input class="input" type="text" name="surname" />
+                  <input class="input" type="text" name="surname" required />
                 </label>
                 <!--name-->
                 <label class="input-label">
@@ -65,14 +65,17 @@
                 </label>
                 <!--select-->
                 <label class="input-label">
-                  <span class="input-title">Опыт работы по вакансии</span>
-                  <select class="input input-select">
-                    <option value="">Выберите опыт работы</option>
-                    <option value="-1">Менее 1 года</option>
-                    <option value="1-2">1-2 года</option>
-                    <option value="2-3">2-3 года</option>
-                    <option value="3+">Более 3 лет</option>
-                  </select>
+                  <span class="input-title select-input"
+                    >Опыт работы по вакансии</span
+                  >
+                  <button class="input select-btn">
+                    <p class="select-btn-text">Выберите опыт работы</p>
+                    <img
+                      class="select-btn-img"
+                      src="./images/sel.png"
+                      alt="стрелка"
+                    />
+                  </button>
                 </label>
               </form>
             </div>

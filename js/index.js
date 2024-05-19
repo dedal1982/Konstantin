@@ -18,3 +18,14 @@ popupClosed.addEventListener("click", () => {
 });
 
 //Форма заполнение даты рождения
+function formatDate() {
+  var input = document.getElementById("birthday");
+  var value = input.value
+    .replace(/\D/g, "")
+    .match(/(\d{0,2})(\d{0,2})(\d{0,4})/);
+  input.value = !value[2]
+    ? value[1]
+    : value[1] + "." + value[2] + "." + value[3].slice(0, 4);
+}
+
+//Форма заполнение номера телефона
