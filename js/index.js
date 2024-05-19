@@ -31,9 +31,25 @@ function formatDate() {
 //Выбор стажа раюоты
 const selectBtn = document.querySelector(".select-btn");
 const selectBtnImg = document.querySelector(".select-btn-img");
+const selectList = document.querySelector(".select-list");
 
 selectBtn.addEventListener("click", (ev) => {
   ev.preventDefault();
   selectBtnImg.classList.toggle("active");
   selectBtn.classList.toggle("active");
+  selectList.classList.toggle("active");
+});
+
+//Перебор стажа и выбор значения
+const selectListItem = document.querySelectorAll(".select-list li");
+const selectBtnText = document.querySelector(".select-btn-text");
+
+selectListItem.forEach((elem) => {
+  elem.addEventListener("click", () => {
+    let elemText = elem.textContent;
+    selectBtnText.textContent = elemText;
+    selectList.classList.remove("active");
+    selectBtn.classList.remove("active");
+    selectBtnText.classList.add("active");
+  });
 });
