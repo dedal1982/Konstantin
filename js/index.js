@@ -50,6 +50,7 @@ selectListItem.forEach((elem) => {
     selectBtnText.textContent = elemText;
     selectList.classList.remove("active");
     selectBtn.classList.remove("active");
+    selectBtnImg.classList.remove("active");
     selectBtnText.classList.add("active");
   });
 });
