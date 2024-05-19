@@ -28,4 +28,12 @@ function formatDate() {
     : value[1] + "." + value[2] + "." + value[3].slice(0, 4);
 }
 
-//Форма заполнение номера телефона
+//Выбор стажа раюоты
+const selectBtn = document.querySelector(".select-btn");
+const selectBtnImg = document.querySelector(".select-btn-img");
+
+selectBtn.addEventListener("click", (ev) => {
+  ev.preventDefault();
+  selectBtnImg.classList.toggle("active");
+  selectBtn.classList.toggle("active");
+});

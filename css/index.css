@@ -463,6 +463,10 @@ button {
     width: 300px;
     height: 48px;
   }
+  .select-btn.active {
+    height: 208px;
+    border-radius: 8px;
+  }
   .select-btn-text {
     font-weight: 400;
     font-size: 16px;
@@ -472,5 +476,8 @@ button {
   .select-btn-img {
     width: 24px;
     height: 24px;
+  }
+  .select-btn-img.active {
+    transform: rotate(180deg);
   }
 }
