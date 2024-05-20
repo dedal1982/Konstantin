@@ -606,7 +606,7 @@ button {
   .input-images-box {
     width: 100%;
     overflow: hidden;
-    display: none;
+    display: flex;
   }
   .input-images-box.active {
     display: flex;
@@ -623,7 +623,7 @@ button {
     border-radius: 8px;
     position: relative;
   }
-  .input-image::before {
+  .image-before {
     position: absolute;
     content: url(../images/input-ex.png);
     width: 16px;
@@ -638,3 +638,12 @@ button {
     height: 80px;
   }
 }
+/***************/
+/* .input-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+.doc-img {
+  margin: 5px;
+  max-width: 100px; 
+} */
