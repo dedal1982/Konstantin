@@ -28,7 +28,7 @@ function formatDate() {
     : value[1] + "." + value[2] + "." + value[3].slice(0, 4);
 }
 
-//Выбор стажа раюоты
+//Выбор стажа работы
 const selectBtn = document.querySelector(".select-btn");
 const selectBtnImg = document.querySelector(".select-btn-img");
 const selectList = document.querySelector(".select-list");
