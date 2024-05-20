@@ -19,12 +19,14 @@
             <div class="Job-openings__wrapper">
               <h2 class="Job-openings-title">Вакансии</h2>
               <div class="Job-openings__inner">
-                <div class="Job-openings__item">
-                  <h3 class="item-title">Программист 1С</h3>
-                  <h3 class="item-title item-title-blue">
-                    от 100 000 ₽ на руки
-                  </h3>
-                </div>
+                <form id="myForm" action="/submit-url" method="post">
+                  <div class="Job-openings__item">
+                    <h3 class="item-title">Программист 1С</h3>
+                    <h3 class="item-title item-title-blue">
+                      от 100 000 ₽ на руки
+                    </h3>
+                  </div>
+                </form>
                 <div class="Job-openings__item">
                   <h3 class="item-title">
                     Специалист в отдел моделирования и анализа гидравлического
@@ -150,5 +152,6 @@
         </div>
       </footer>
     </div>
+    <script src="./js/submit.js"></script>
   </body>
 </html>
